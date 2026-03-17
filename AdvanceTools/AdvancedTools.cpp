@@ -11,7 +11,7 @@ void ModEntry(AxoMod* /*mod*/, AxoAPITable* api) {
     steel_ingot.iconName = L"steel_ingot"; // From textures/items
     steel_ingot.name = "Steel Ingot";
     steel_ingot.maxStackSize = 64; // Stack Size
-    steel_ingot.creativeTab = AxoTab_Materials;
+    steel_ingot.creativeTab = 4;
     
     if (AxoAPI_RegisterItem(&steel_ingot))
         AxoAPI_Log("Steel Ingot DONE.");
